@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<Language>
+    <Alphabet>
+        <Letter char="a"/>
+        <Letter char="b"/>
+    </Alphabet>
+    
+    <MatrixDims rows="4" cols="2"></MatrixDims>
+    
+    <Matrix>
+        <State  alpha0="1" alpha1="10001"/>
+        <State  alpha0="1" alpha1="2"/>
+        <State  alpha0="3" alpha1="1"/>
+        <State  alpha0="3" alpha1="1"/>
+    </Matrix>
+    
+    <Messages>
+        <Message state="0" text="Empty string is not allowed!"/>
+        <Message state="1" text="String must contain an odd number of b's!"/>
+        <Message state="2" text="String must end with a!"/>
+        <Message state="3" text="String is accepted."/>
+        <Message state="10001" text="String must begin with a!"/>
+    </Messages>
+    
+</Language>

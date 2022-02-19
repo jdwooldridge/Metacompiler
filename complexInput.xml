@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<Language>
+    <Alphabet>
+        <Letter char="a"/>
+        <Letter char="b"/>
+        <Letter char="c"/>
+    </Alphabet>
+    
+    <MatrixDims rows="2" cols="3"></MatrixDims>
+    
+    <Matrix>
+        <State alpha0="1" alpha1="10001" alpha2="10002"/>
+        <State alpha0="10003" alpha1="1" alpha2="1"/>
+    </Matrix>
+    
+    <Messages>
+        <Message state="0" text="Empty string is not allowed!"/>
+        <Message state="1" text="VALID"/>
+        <Message state="10001" text="String cannot begin with 'b'!"/>
+        <Message state="10002" text="String cannot begin with 'c'!"/>
+        <Message state="10003" text="'a' is illegal here!"/>
+    </Messages>
+</Language>
